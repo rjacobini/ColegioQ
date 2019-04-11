@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class School{
 	private String name;
 	private String address;
@@ -8,6 +10,7 @@ public class School{
 	private ArrayList<Teacher> teachers;
 	private ExamsRepository exams; 
 	private Principal principal;
+	
 	
 	
 	

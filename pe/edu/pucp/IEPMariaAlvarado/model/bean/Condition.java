@@ -1,0 +1,3 @@
+enum Condition{
+	signedUp, registered
+}
