@@ -1,3 +1,4 @@
+package pe.edu.pucp.IEPMariaAlvarado.model.bean;
 import java.util.ArrayList;
 import java.util.Date;
 

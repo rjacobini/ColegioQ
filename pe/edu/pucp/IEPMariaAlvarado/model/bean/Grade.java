@@ -1,3 +1,4 @@
+package pe.edu.pucp.IEPMariaAlvarado.model.bean;
 import java.util.Date;
 
 public class Grade{

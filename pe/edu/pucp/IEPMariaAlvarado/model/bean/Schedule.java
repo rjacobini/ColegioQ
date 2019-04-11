@@ -1,9 +1,10 @@
+package pe.edu.pucp.IEPMariaAlvarado.model.bean;
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Schedule{
 	private ArrayList<Date> days;
-	private Time startTime;
-	private Time endTime;
+	private Date startTime;
+	private Date endTime;
 	private String classRoom;
 }
