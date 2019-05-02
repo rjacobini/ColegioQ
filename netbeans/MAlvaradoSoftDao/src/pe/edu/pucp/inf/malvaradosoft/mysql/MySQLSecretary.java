@@ -5,8 +5,14 @@
  */
 package pe.edu.pucp.inf.malvaradosoft.mysql;
 
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.Secretary;
+import pe.edu.pucp.inf.malvaradosoft.config.DBManager;
 import pe.edu.pucp.inf.malvaradosoft.dao.DAOSecretary;
 
 /**
@@ -17,22 +23,74 @@ public class MySQLSecretary implements DAOSecretary{
 
     @Override
     public ArrayList<Secretary> queryAll() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        ArrayList<Secretary> secretaries = new ArrayList<Secretary>();
+        try{
+            DBManager dbManager= DBManager.getDbManager();
+            Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
+            String sql = "SELECT * FROM Secretary";
+            Statement st = con.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            
+            while(rs.next()){
+                Secretary s = new Secretary();
+                s.setId(rs.getInt("idSecretary"));
+                secretaries.add(s);
+            }
+            con.close();
+            
+        }catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return secretaries;
     }
 
     @Override
     public int insert(Secretary secretary) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        int result = 0;
+        try{
+            DBManager dbManager = DBManager.getDbManager();
+            Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
+            CallableStatement cs = con.prepareCall("{call insertSecretary(?}");
+            cs.setInt(1, secretary.getId());
+            result = cs.executeUpdate();
+        }catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return result;
     }
 
     @Override
     public int update(Secretary secretary) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        int result = 0;
+        try{
+            DBManager dbManager = DBManager.getDbManager();
+            Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
+            CallableStatement cs = con.prepareCall(""
+                    + "{call updateSecretary(?)}");
+            cs.setInt(1, secretary.getId());
+            result = cs.executeUpdate();
+            con.close();
+        }catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return result;
     }
 
     @Override
     public int delete(Secretary secretary) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        int result= 0;
+        try{
+            DBManager dbManager= DBManager.getDbManager();
+            Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
+            CallableStatement cs = con.prepareCall(""
+                    + "{call deleteSecretary(?)}");
+            cs.setInt(1, secretary.getId());
+            result= cs.executeUpdate();
+            con.close();            
+        }catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return result;
     }
     
 }

@@ -12,21 +12,40 @@ import java.util.Date;
  * @author alulab14
  */
 public class Grade {
+    private int idGrade;
     private double value;
     private String description;
-    private String weight;
-    private int codStudent;
+    private double weight;
+    private int idStudent;
     private Date registerDate;
+    private int idCourseSchedule;
 
-    public Grade(double value, String description, String weight, int codStudent, Date registerDate) {
+    public Grade(double value, String description, double weight, int codStudent, Date registerDate) {
         this.value = value;
         this.description = description;
         this.weight = weight;
-        this.codStudent = codStudent;
+        this.idStudent = codStudent;
         this.registerDate = registerDate;
+        this.idCourseSchedule= idCourseSchedule;
     }
 
     public Grade() {
+    }
+
+    public int getIdGrade() {
+        return idGrade;
+    }
+
+    public void setIdGrade(int idGrade) {
+        this.idGrade = idGrade;
+    }
+
+    public int getIdCourseSchedule() {
+        return idCourseSchedule;
+    }
+
+    public void setIdCourseSchedule(int idCourseSchedule) {
+        this.idCourseSchedule = idCourseSchedule;
     }
 
     public double getValue() {
@@ -45,20 +64,20 @@ public class Grade {
         this.description = description;
     }
 
-    public String getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(String weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
-    public int getCodStudent() {
-        return codStudent;
+    public int getIdStudent() {
+        return idStudent;
     }
 
-    public void setCodStudent(int codStudent) {
-        this.codStudent = codStudent;
+    public void setIdStudent(int idStudent) {
+        this.idStudent = idStudent;
     }
 
     public Date getRegisterDate() {

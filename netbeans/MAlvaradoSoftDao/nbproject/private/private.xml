@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+
             <file>file:/C:/Users/lenovo/Documents/JOEL_2019/Colegio/repo/ColegioQ/netbeans/MAlvaradoSoftDao/src/pe/edu/pucp/inf/malvaradosoft/mysql/MySQLAuxiliar.java</file>
             <file>file:/C:/Users/lenovo/Documents/JOEL_2019/Colegio/repo/ColegioQ/netbeans/MAlvaradoSoftDao/src/pe/edu/pucp/inf/malvaradosoft/mysql/MySQLCourse.java</file>
             <file>file:/C:/Users/lenovo/Documents/JOEL_2019/Colegio/repo/ColegioQ/netbeans/MAlvaradoSoftDao/src/pe/edu/pucp/inf/malvaradosoft/mysql/MySQLClassroom.java</file>
             <file>file:/C:/Users/lenovo/Documents/JOEL_2019/Colegio/repo/ColegioQ/netbeans/MAlvaradoSoftDao/src/pe/edu/pucp/inf/malvaradosoft/mysql/MySQLClassSection.java</file>
+			
         </group>
     </open-files>
 </project-private>
