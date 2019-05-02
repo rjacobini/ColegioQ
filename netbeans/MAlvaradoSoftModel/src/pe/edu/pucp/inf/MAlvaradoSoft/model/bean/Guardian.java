@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * @author alulab14
  */
 public class Guardian {
+    private int idGuardian;
     private ArrayList<Student> students;
 
     public Guardian(ArrayList<Student> students) {
@@ -19,6 +20,14 @@ public class Guardian {
     }
 
     public Guardian() {
+    }
+
+    public int getIdGuardian() {
+        return idGuardian;
+    }
+
+    public void setIdGuardian(int idGuardian) {
+        this.idGuardian = idGuardian;
     }
 
     public ArrayList<Student> getStudents() {

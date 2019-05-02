@@ -40,6 +40,14 @@ public class Schedule {
     public Schedule() {
     }
 
+    public int getIdSchedule() {
+        return idSchedule;
+    }
+
+    public void setIdSchedule(int idSchedule) {
+        this.idSchedule = idSchedule;
+    }
+
     public ArrayList<Date> getDays() {
         return days;
     }
