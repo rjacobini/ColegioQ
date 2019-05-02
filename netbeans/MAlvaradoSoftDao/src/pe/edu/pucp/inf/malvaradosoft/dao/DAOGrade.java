@@ -15,6 +15,6 @@ import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.Grade;
 public interface DAOGrade {
     ArrayList <Grade> queryAll();
     int insert(Grade g);
-    int update();
-    int delete();
+    int update(Grade g);
+    int delete(Grade g);
 }
