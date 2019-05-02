@@ -18,19 +18,40 @@ public class Workshop {
     private Schedule schedule;
     private ArrayList<Student> students;
     private String description;
-
+    private int active;
+    private int idSchedule;
     public Workshop() {
     }
 
-    public Workshop(int codWorkshop, int codCourse, int codTeacher, Schedule schedule, ArrayList<Student> students, String description) {
+    public Workshop(int codWorkshop, int codCourse, int codTeacher, Schedule schedule, 
+            ArrayList<Student> students, String description, int active, int idSchedule) {
         this.codWorkshop = codWorkshop;
         this.codCourse = codCourse;
         this.codTeacher = codTeacher;
         this.schedule = schedule;
         this.students = students;
         this.description = description;
+        this.active=active;
+        this.idSchedule=idSchedule;
     }
 
+    public int getIdSchedule() {
+        return idSchedule;
+    }
+
+    public void setIdSchedule(int idSchedule) {
+        this.idSchedule = idSchedule;
+    }
+    
+    
+    public int getActive() {
+        return active;
+    }
+    
+    public void setActive(int active) {
+        this.active = active;
+    }
+    
     public int getCodWorkshop() {
         return codWorkshop;
     }

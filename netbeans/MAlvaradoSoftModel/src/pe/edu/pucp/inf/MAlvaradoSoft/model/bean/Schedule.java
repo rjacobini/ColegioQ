@@ -20,13 +20,23 @@ public class Schedule {
     private Time endTime;
     private String classroomName;
 
-    public Schedule(ArrayList<Date> days, Time startTime, Time endTime, String classroomName) {
+    public Schedule(ArrayList<Date> days, Time startTime, Time endTime, String classroomName, int idSchedule) {
         this.days = days;
         this.startTime = startTime;
         this.endTime = endTime;
         this.classroomName = classroomName;
+        this.idSchedule=idSchedule;
     }
 
+    public int getIdSchedule() {
+        return idSchedule;
+    }
+
+    public void setIdSchedule(int idSchedule) {
+        this.idSchedule = idSchedule;
+    }
+    
+    
     public Schedule() {
     }
 

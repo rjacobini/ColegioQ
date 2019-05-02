@@ -19,11 +19,11 @@ public class User {
     private int phone;
     private String email;
     private boolean active;
-    private String nickname;
+    private String userName;
     private String password;
 
     public User(String name, String firstLastName, String secondLastName, String dni, String adress, int phone, String email, boolean active, int id, 
-            String nickname, String password) {
+            String userName, String password) {
         this.id=id;
         this.name = name;
         this.firstLastName = firstLastName;
@@ -33,10 +33,26 @@ public class User {
         this.phone = phone;
         this.email = email;
         this.active = active;
-        this.nickname=nickname;
+        this.userName=userName;
         this.password=password;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
     public User() {
     }
 

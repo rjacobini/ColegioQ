@@ -3,7 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
+            <file>file:/C:/Users/Renato/Desktop/PUCP/LP2/Trabajo%20Grupal/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/Student.java</file>
+            <file>file:/C:/Users/Renato/Desktop/PUCP/LP2/Trabajo%20Grupal/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/User.java</file>
+            <file>file:/C:/Users/Renato/Desktop/PUCP/LP2/Trabajo%20Grupal/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/Teacher.java</file>
+            <file>file:/C:/Users/Renato/Desktop/PUCP/LP2/Trabajo%20Grupal/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/Workshop.java</file>
+            <file>file:/C:/Users/Renato/Desktop/PUCP/LP2/Trabajo%20Grupal/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/Schedule.java</file>
+=======
             <file>file:/E:/johana/Cursos/Séptimo%20ciclo/LP2/TA/lab4/ColegioQ/netbeans/MAlvaradoSoftModel/src/pe/edu/pucp/inf/MAlvaradoSoft/model/bean/Guardian.java</file>
+>>>>>>> a85f019f125858074db4a1462d5d9b0f63269a95
         </group>
     </open-files>
 </project-private>
