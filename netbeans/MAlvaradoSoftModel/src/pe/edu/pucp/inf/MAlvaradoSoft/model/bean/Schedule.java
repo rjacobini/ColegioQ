@@ -14,29 +14,20 @@ import java.util.Date;
  * @author alulab14
  */
 public class Schedule {
+    private int idClassroom;
     private int idSchedule;
     private ArrayList<Date> days;
     private Time startTime;
     private Time endTime;
     private String classroomName;
 
-    public Schedule(ArrayList<Date> days, Time startTime, Time endTime, String classroomName, int idSchedule) {
+    public Schedule(ArrayList<Date> days, Time startTime, Time endTime, String classroomName) {
         this.days = days;
         this.startTime = startTime;
         this.endTime = endTime;
         this.classroomName = classroomName;
-        this.idSchedule=idSchedule;
     }
 
-    public int getIdSchedule() {
-        return idSchedule;
-    }
-
-    public void setIdSchedule(int idSchedule) {
-        this.idSchedule = idSchedule;
-    }
-    
-    
     public Schedule() {
     }
 
@@ -46,6 +37,14 @@ public class Schedule {
 
     public void setIdSchedule(int idSchedule) {
         this.idSchedule = idSchedule;
+    }
+
+    public int getIdClassroom() {
+        return idClassroom;
+    }
+
+    public void setIdClassroom(int idClassroom) {
+        this.idClassroom = idClassroom;
     }
 
     public ArrayList<Date> getDays() {
