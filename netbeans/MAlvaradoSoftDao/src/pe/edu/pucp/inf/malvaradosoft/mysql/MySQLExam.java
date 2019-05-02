@@ -103,6 +103,7 @@ public class MySQLExam implements DAOExam{
             Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
             CallableStatement cs = con.prepareCall(""
                     + "{call deleteExam(?)}");
+			cs.setInt(1, exam.getIdExam());
             result= cs.executeUpdate();
             con.close();            
         }catch(Exception ex){
