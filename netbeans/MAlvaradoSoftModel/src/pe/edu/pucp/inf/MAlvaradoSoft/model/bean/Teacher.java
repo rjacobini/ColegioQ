@@ -14,15 +14,25 @@ import java.util.ArrayList;
 public class Teacher {
     private ArrayList<CourseXSchedule> classes;
     private ArrayList<Workshop> workshops;
-
+    private int idTeacher;
+    
     public Teacher() {
     }
 
-    public Teacher(ArrayList<CourseXSchedule> classes, ArrayList<Workshop> workshops) {
+    public Teacher(ArrayList<CourseXSchedule> classes, ArrayList<Workshop> workshops, int idTeacher) {
         this.classes = classes;
         this.workshops = workshops;
+        this.idTeacher = idTeacher;
     }
 
+    public int getIdTeacher() {
+        return idTeacher;
+    }
+
+    public void setIdTeacher(int idTeacher) {
+        this.idTeacher = idTeacher;
+    }
+ 
     public ArrayList<CourseXSchedule> getClasses() {
         return classes;
     }
