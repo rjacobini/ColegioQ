@@ -11,14 +11,16 @@ package pe.edu.pucp.inf.MAlvaradoSoft.model.bean;
  */
 public class Classroom {
     private int id;
-    private String classroomName;
+    private String name;
     private int capacity;
-    private String description;
 
-    public Classroom(String classroomName, int capacity, String description) {
-        this.classroomName = classroomName;
+    public Classroom(int id, String name, int capacity) {
+        this.id = id;
+        this.name = name;
         this.capacity = capacity;
-        this.description = description;
+    }
+
+    public Classroom() {
     }
 
     public int getId() {
@@ -29,17 +31,12 @@ public class Classroom {
         this.id = id;
     }
 
-    
-    
-    public Classroom() {
+    public String getName() {
+        return name;
     }
 
-    public String getClassroomName() {
-        return classroomName;
-    }
-
-    public void setClassroomName(String classroomName) {
-        this.classroomName = classroomName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getCapacity() {
@@ -50,12 +47,7 @@ public class Classroom {
         this.capacity = capacity;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    
+    
     
 }

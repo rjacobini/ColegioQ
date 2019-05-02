@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.ClassXSection;
+import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.ClassSection;
 import pe.edu.pucp.inf.malvaradosoft.config.DBManager;
 import pe.edu.pucp.inf.malvaradosoft.dao.DAOClassXSection;
 
@@ -18,11 +18,11 @@ import pe.edu.pucp.inf.malvaradosoft.dao.DAOClassXSection;
  *
  * @author alulab14
  */
-public class MySQLClassXSection implements DAOClassXSection{
+public class MySQLClassSection implements DAOClassXSection{
 
     @Override
-    public ArrayList<ClassXSection> queryAll() {
-        ArrayList<ClassXSection> classesXSection = new ArrayList<ClassXSection>();
+    public ArrayList<ClassSection> queryAll() {
+        ArrayList<ClassSection> classesXSection = new ArrayList<ClassSection>();
         try{
             DBManager dbManager= DBManager.getDbManager();
             Connection con = DriverManager.getConnection(dbManager.getUrl(), dbManager.getUser(), dbManager.getPassword());
@@ -31,9 +31,9 @@ public class MySQLClassXSection implements DAOClassXSection{
             ResultSet rs = st.executeQuery(sql);
             
             while(rs.next()){
-                ClassXSection cxs = new ClassXSection();
+                ClassSection cxs = new ClassSection();
                 cxs.setId(rs.getInt("idSection"));
-                cxs
+                
                 
                 classesXSection.add(cxs);
             }
@@ -46,17 +46,17 @@ public class MySQLClassXSection implements DAOClassXSection{
     }
 
     @Override
-    public int insert(ClassXSection classXSection) {
+    public int insert(ClassSection classXSection) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int update(ClassXSection classXSection) {
+    public int update(ClassSection classXSection) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int delete(ClassXSection classXSection) {
+    public int delete(ClassSection classXSection) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

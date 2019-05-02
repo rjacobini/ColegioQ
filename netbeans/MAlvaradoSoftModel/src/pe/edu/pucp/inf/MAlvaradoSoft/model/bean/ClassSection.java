@@ -11,23 +11,30 @@ import java.util.ArrayList;
  *
  * @author alulab14
  */
-public class ClassXSection {
-    private int capacity;
+public class ClassSection {
+    private int total;
     private int id;
     private ArrayList<Student> students;
     private ArrayList<CourseXSchedule> courses;
-    private int _class;
-    private char section;
+    private String name;
 
-    public ClassXSection() {
+    public ClassSection() {
     }
 
-    public ClassXSection(int capacity, ArrayList<Student> students, ArrayList<CourseXSchedule> courses, int _class, char section) {
-        this.capacity = capacity;
+    public ClassSection(int total, int id, ArrayList<Student> students, ArrayList<CourseXSchedule> courses, String name) {
+        this.total = total;
+        this.id = id;
         this.students = students;
         this.courses = courses;
-        this._class = _class;
-        this.section = section;
+        this.name = name;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
     }
 
     public int getId() {
@@ -36,16 +43,6 @@ public class ClassXSection {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    
-    
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
     }
 
     public ArrayList<Student> getStudents() {
@@ -64,20 +61,13 @@ public class ClassXSection {
         this.courses = courses;
     }
 
-    public int get_Class() {
-        return _class;
+    public String getName() {
+        return name;
     }
 
-    public void setClass(int _class) {
-        this._class = _class;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public char getSection() {
-        return section;
-    }
-
-    public void setSection(char section) {
-        this.section = section;
-    }
     
 }

@@ -34,7 +34,7 @@ public class MySQLClassroom implements DAOClassroom{
             while(rs.next()){
                 Classroom c = new Classroom();
                 c.setId(rs.getInt("idClassroom"));
-                c.setClassroomName(rs.getString("name"));
+                c.setName(rs.getString("name"));
                 c.setCapacity(rs.getInt("capacity"));                
                 classrooms.add(c);
             }
@@ -57,7 +57,7 @@ public class MySQLClassroom implements DAOClassroom{
             dbManager.getPassword());
             CallableStatement cs = con.prepareCall("{call insertClassroom(?,?)}");
             cs.setInt(1, classroom.getCapacity());
-            cs.setString(2, classroom.getClassroomName());
+            cs.setString(2, classroom.getName());
             result = cs.executeUpdate();
         }catch(Exception ex){
             System.out.println(ex.getMessage());
@@ -77,7 +77,7 @@ public class MySQLClassroom implements DAOClassroom{
             CallableStatement cs = con.prepareCall("{call updateClassroom(?,?,?)}");
             cs.setInt(1, classroom.getId());
             cs.setInt(2, classroom.getCapacity());
-            cs.setString(3, classroom.getClassroomName());
+            cs.setString(3, classroom.getName());
             result = cs.executeUpdate();
         }catch(Exception ex){
             System.out.println(ex.getMessage());

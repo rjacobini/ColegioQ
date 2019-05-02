@@ -6,15 +6,15 @@
 package pe.edu.pucp.inf.malvaradosoft.dao;
 
 import java.util.ArrayList;
-import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.ClassXSection;
+import pe.edu.pucp.inf.MAlvaradoSoft.model.bean.ClassSection;
 
 /**
  *
  * @author alulab14
  */
 public interface DAOClassXSection {
-    ArrayList <ClassXSection> queryAll();
-    int insert(ClassXSection classXSection);
-    int update(ClassXSection classXSection);
-    int delete(ClassXSection classXSection);
+    ArrayList <ClassSection> queryAll();
+    int insert(ClassSection classXSection);
+    int update(ClassSection classXSection);
+    int delete(ClassSection classXSection);
 }
