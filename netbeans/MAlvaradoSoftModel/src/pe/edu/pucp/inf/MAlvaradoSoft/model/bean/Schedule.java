@@ -14,6 +14,7 @@ import java.util.Date;
  * @author alulab14
  */
 public class Schedule {
+    private int idSchedule;
     private ArrayList<Date> days;
     private Time startTime;
     private Time endTime;
@@ -27,6 +28,14 @@ public class Schedule {
     }
 
     public Schedule() {
+    }
+
+    public int getIdSchedule() {
+        return idSchedule;
+    }
+
+    public void setIdSchedule(int idSchedule) {
+        this.idSchedule = idSchedule;
     }
 
     public ArrayList<Date> getDays() {

@@ -12,6 +12,8 @@ import java.util.ArrayList;
  * @author alulab14
  */
 public class CourseXSchedule {
+    private int idCourseSchedule;
+    private int idClassSection;
     private Schedule schedule;
     private ArrayList<Grade> grades;
     private int codTeacher;
@@ -24,6 +26,22 @@ public class CourseXSchedule {
         this.codTeacher = codTeacher;
         this.course = course;
         this.section = section;
+    }
+
+    public int getIdCourseSchedule() {
+        return idCourseSchedule;
+    }
+
+    public void setIdCourseSchedule(int idCourseSchedule) {
+        this.idCourseSchedule = idCourseSchedule;
+    }
+
+    public int getIdClassSection() {
+        return idClassSection;
+    }
+
+    public void setIdClassSection(int idClassSection) {
+        this.idClassSection = idClassSection;
     }
 
     
