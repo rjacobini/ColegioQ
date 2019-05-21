@@ -1,0 +1,11 @@
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe.config
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.pdb
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csprojAssemblyReference.cache
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.MenuPrincipal.resources
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Login.resources
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Properties.Resources.resources
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.GenerateResource.cache
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CoreCompileInputs.cache
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.exe
+T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.pdb
