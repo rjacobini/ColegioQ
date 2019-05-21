@@ -9,3 +9,14 @@ T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debu
 T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CoreCompileInputs.cache
 T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.exe
 T:\Temp\jacobini\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.pdb
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe.config
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.pdb
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csprojAssemblyReference.cache
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.MenuPrincipal.resources
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Login.resources
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Properties.Resources.resources
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.GenerateResource.cache
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.exe
+C:\Users\lenovo\Documents\JOEL_2019\Colegio\repo\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.pdb
