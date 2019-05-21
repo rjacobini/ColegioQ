@@ -85,6 +85,12 @@
     <Compile Include="frmFeedback.Designer.cs">
       <DependentUpon>frmFeedback.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistrarNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarNotas.Designer.cs">
+      <DependentUpon>frmRegistrarNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestionarRepositorioExamenes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmFeedback.resx">
       <DependentUpon>frmFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarNotas.resx">
+      <DependentUpon>frmRegistrarNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionarRepositorioExamenes.resx">
       <DependentUpon>GestionarRepositorioExamenes.cs</DependentUpon>
