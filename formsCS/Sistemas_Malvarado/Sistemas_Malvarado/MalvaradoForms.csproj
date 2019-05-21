@@ -67,6 +67,18 @@
     <Compile Include="FormPrruebita.Designer.cs">
       <DependentUpon>FormPrruebita.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeedback.Designer.cs">
+      <DependentUpon>frmFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarRepositorioExamenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarRepositorioExamenes.Designer.cs">
+      <DependentUpon>GestionarRepositorioExamenes.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFeedback.resx">
+      <DependentUpon>frmFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarRepositorioExamenes.resx">
+      <DependentUpon>GestionarRepositorioExamenes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
