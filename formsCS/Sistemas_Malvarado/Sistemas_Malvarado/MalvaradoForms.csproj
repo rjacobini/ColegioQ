@@ -61,6 +61,18 @@
     <Compile Include="FormAlumnos.Designer.cs">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarUsuario.Designer.cs">
+      <DependentUpon>FormBuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInscribirUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInscribirUsuario.Designer.cs">
+      <DependentUpon>FormInscribirUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrruebita.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +105,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormInscribirUsuario.resx">
+      <DependentUpon>FormInscribirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFeedback.resx">
       <DependentUpon>frmFeedback.cs</DependentUpon>
     </EmbeddedResource>

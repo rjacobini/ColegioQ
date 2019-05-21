@@ -16,7 +16,7 @@ namespace Sistemas_Malvarado
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGestionarRepositorioExamenes());
+            Application.Run(new FormInscribirUsuario());
         }
     }
 }
