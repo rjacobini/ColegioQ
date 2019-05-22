@@ -17,6 +17,9 @@ namespace Sistemas_Malvarado
         {
             InitializeComponent();
             nCb = 0;
+            this.tabApoderado.Parent = null;
+            this.tabAlumno.Parent = null;
+            this.tabProfesor.Parent = null;
         }
 
         private void createComboBox()
@@ -45,10 +48,59 @@ namespace Sistemas_Malvarado
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-
+            //Instancia del usuario
+            //User u = new User();
+            //if (u is Profesor)
+            //u.Department = (Department)cboEspecialidades.SelectedItem;
+            //u.student.Dni = txtDNI.Text;
+            MessageBox.Show("Se ha realizado con exito el registro", "Mensaje de Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnBuscarUsuario_Click(object sender, EventArgs e)
+        {
+            FormBuscarUsuario fbuscar = new FormBuscarUsuario();
+            if(fbuscar.ShowDialog() == DialogResult.OK)
+            {
+                //Editar los parametros de los textBox según el usuario elegido
+                
+            }
+        }
+
+        private void ckApoderado_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckApoderado.Checked == true)
+            {
+                this.tabApoderado.Parent = this.tabUsers;
+            }
+        }
+
+        private void ckAlumno_CheckedChanged(object sender, EventArgs e)
+        {
+            if(ckAlumno.Checked == true)
+            {
+                this.tabAlumno.Parent = this.tabUsers;
+            }
+        }
+
+        private void ckProfesor_CheckedChanged(object sender, EventArgs e)
+        {
+            if(ckProfesor.Checked == true)
+            {
+                this.tabProfesor.Parent = this.tabUsers;
+            }
+        }
+
+        private void BuscarAlumno_Click(object sender, EventArgs e)
+        {
+            FormBuscarAlumno fbuscarA = new FormBuscarAlumno();
+            if (fbuscarA.ShowDialog() == DialogResult.OK)
+            {
+                //Editar los parametros de los textBox según el alumno elegido
+
+            }
+        }
+
+        private void buscarApoderado_Click(object sender, EventArgs e)
         {
             
         }

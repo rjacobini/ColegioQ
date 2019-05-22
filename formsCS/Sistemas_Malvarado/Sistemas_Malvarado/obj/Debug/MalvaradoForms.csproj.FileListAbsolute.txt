@@ -44,3 +44,6 @@ T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Malv
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CopyComplete
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.exe
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.pdb
+T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmRegistrarNotas.resources
+T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarUsuario.resources
+T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarAlumno.resources
