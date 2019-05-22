@@ -67,6 +67,12 @@
     <Compile Include="FormBuscarAlumno.Designer.cs">
       <DependentUpon>FormBuscarAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBuscarApoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarApoderado.Designer.cs">
+      <DependentUpon>FormBuscarApoderado.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBuscarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormBuscarAlumno.resx">
       <DependentUpon>FormBuscarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarApoderado.resx">
+      <DependentUpon>FormBuscarApoderado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBuscarUsuario.resx">
       <DependentUpon>FormBuscarUsuario.cs</DependentUpon>

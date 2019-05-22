@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInscribirUsuario));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gbDatosGenerales = new System.Windows.Forms.GroupBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnBuscarUsuario = new System.Windows.Forms.Button();
@@ -80,11 +81,15 @@
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvAlumnos = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ApPat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ApMat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbDatosGenerales.SuspendLayout();
             this.tabUsers.SuspendLayout();
             this.tabApoderado.SuspendLayout();
@@ -93,7 +98,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.AñadirCurso)).BeginInit();
             this.gbTipoUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // gbDatosGenerales
@@ -113,48 +118,48 @@
             this.gbDatosGenerales.Controls.Add(this.label4);
             this.gbDatosGenerales.Controls.Add(this.label3);
             this.gbDatosGenerales.Controls.Add(this.label2);
-            this.gbDatosGenerales.Location = new System.Drawing.Point(30, 104);
+            this.gbDatosGenerales.Location = new System.Drawing.Point(30, 108);
             this.gbDatosGenerales.Name = "gbDatosGenerales";
-            this.gbDatosGenerales.Size = new System.Drawing.Size(582, 298);
+            this.gbDatosGenerales.Size = new System.Drawing.Size(597, 271);
             this.gbDatosGenerales.TabIndex = 7;
             this.gbDatosGenerales.TabStop = false;
             this.gbDatosGenerales.Text = "Datos Generales";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(125, 223);
+            this.txtEmail.Location = new System.Drawing.Point(126, 222);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(388, 20);
+            this.txtEmail.Size = new System.Drawing.Size(379, 20);
             this.txtEmail.TabIndex = 10;
             // 
             // btnBuscarUsuario
             // 
             this.btnBuscarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarUsuario.Image")));
-            this.btnBuscarUsuario.Location = new System.Drawing.Point(517, 262);
+            this.btnBuscarUsuario.Location = new System.Drawing.Point(524, 10);
             this.btnBuscarUsuario.Name = "btnBuscarUsuario";
-            this.btnBuscarUsuario.Size = new System.Drawing.Size(65, 36);
+            this.btnBuscarUsuario.Size = new System.Drawing.Size(65, 33);
             this.btnBuscarUsuario.TabIndex = 24;
             this.btnBuscarUsuario.UseVisualStyleBackColor = true;
             this.btnBuscarUsuario.Click += new System.EventHandler(this.btnBuscarUsuario_Click);
             // 
             // txtTel
             // 
-            this.txtTel.Location = new System.Drawing.Point(125, 191);
+            this.txtTel.Location = new System.Drawing.Point(126, 190);
             this.txtTel.Name = "txtTel";
-            this.txtTel.Size = new System.Drawing.Size(388, 20);
+            this.txtTel.Size = new System.Drawing.Size(379, 20);
             this.txtTel.TabIndex = 9;
             // 
             // txtApMat
             // 
-            this.txtApMat.Location = new System.Drawing.Point(125, 127);
+            this.txtApMat.Location = new System.Drawing.Point(126, 126);
             this.txtApMat.Name = "txtApMat";
-            this.txtApMat.Size = new System.Drawing.Size(388, 20);
+            this.txtApMat.Size = new System.Drawing.Size(379, 20);
             this.txtApMat.TabIndex = 9;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 162);
+            this.label8.Location = new System.Drawing.Point(17, 161);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 13);
             this.label8.TabIndex = 8;
@@ -163,7 +168,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 194);
+            this.label7.Location = new System.Drawing.Point(17, 193);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(49, 13);
             this.label7.TabIndex = 7;
@@ -171,15 +176,15 @@
             // 
             // txtApDir
             // 
-            this.txtApDir.Location = new System.Drawing.Point(125, 159);
+            this.txtApDir.Location = new System.Drawing.Point(126, 158);
             this.txtApDir.Name = "txtApDir";
-            this.txtApDir.Size = new System.Drawing.Size(388, 20);
+            this.txtApDir.Size = new System.Drawing.Size(379, 20);
             this.txtApDir.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 226);
+            this.label6.Location = new System.Drawing.Point(17, 225);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(32, 13);
             this.label6.TabIndex = 6;
@@ -187,29 +192,29 @@
             // 
             // txtApPat
             // 
-            this.txtApPat.Location = new System.Drawing.Point(125, 95);
+            this.txtApPat.Location = new System.Drawing.Point(126, 94);
             this.txtApPat.Name = "txtApPat";
-            this.txtApPat.Size = new System.Drawing.Size(388, 20);
+            this.txtApPat.Size = new System.Drawing.Size(379, 20);
             this.txtApPat.TabIndex = 5;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(125, 63);
+            this.txtNombre.Location = new System.Drawing.Point(126, 62);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(388, 20);
+            this.txtNombre.Size = new System.Drawing.Size(379, 20);
             this.txtNombre.TabIndex = 4;
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(125, 31);
+            this.txtDNI.Location = new System.Drawing.Point(126, 30);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(388, 20);
+            this.txtDNI.Size = new System.Drawing.Size(379, 20);
             this.txtDNI.TabIndex = 4;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 66);
+            this.label5.Location = new System.Drawing.Point(17, 65);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 3;
@@ -218,7 +223,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 98);
+            this.label4.Location = new System.Drawing.Point(17, 97);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 13);
             this.label4.TabIndex = 2;
@@ -227,7 +232,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 130);
+            this.label3.Location = new System.Drawing.Point(17, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 1;
@@ -236,7 +241,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 34);
+            this.label2.Location = new System.Drawing.Point(17, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 0;
@@ -247,10 +252,10 @@
             this.tabUsers.Controls.Add(this.tabApoderado);
             this.tabUsers.Controls.Add(this.tabAlumno);
             this.tabUsers.Controls.Add(this.tabProfesor);
-            this.tabUsers.Location = new System.Drawing.Point(22, 424);
+            this.tabUsers.Location = new System.Drawing.Point(22, 401);
             this.tabUsers.Name = "tabUsers";
             this.tabUsers.SelectedIndex = 0;
-            this.tabUsers.Size = new System.Drawing.Size(609, 301);
+            this.tabUsers.Size = new System.Drawing.Size(609, 309);
             this.tabUsers.TabIndex = 23;
             // 
             // tabApoderado
@@ -261,7 +266,7 @@
             this.tabApoderado.Location = new System.Drawing.Point(4, 22);
             this.tabApoderado.Name = "tabApoderado";
             this.tabApoderado.Padding = new System.Windows.Forms.Padding(3);
-            this.tabApoderado.Size = new System.Drawing.Size(601, 275);
+            this.tabApoderado.Size = new System.Drawing.Size(601, 283);
             this.tabApoderado.TabIndex = 0;
             this.tabApoderado.Text = "Apoderado";
             this.tabApoderado.UseVisualStyleBackColor = true;
@@ -269,7 +274,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(22, 27);
+            this.label11.Location = new System.Drawing.Point(23, 72);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(92, 13);
             this.label11.TabIndex = 24;
@@ -277,7 +282,7 @@
             // 
             // BuscarAlumno
             // 
-            this.BuscarAlumno.Location = new System.Drawing.Point(25, 234);
+            this.BuscarAlumno.Location = new System.Drawing.Point(495, 41);
             this.BuscarAlumno.Name = "BuscarAlumno";
             this.BuscarAlumno.Size = new System.Drawing.Size(75, 23);
             this.BuscarAlumno.TabIndex = 22;
@@ -287,7 +292,7 @@
             // 
             // tabAlumno
             // 
-            this.tabAlumno.Controls.Add(this.dgvAlumnos);
+            this.tabAlumno.Controls.Add(this.dgvUsuarios);
             this.tabAlumno.Controls.Add(this.label12);
             this.tabAlumno.Controls.Add(this.comboBox3);
             this.tabAlumno.Controls.Add(this.comboBox2);
@@ -297,7 +302,7 @@
             this.tabAlumno.Location = new System.Drawing.Point(4, 22);
             this.tabAlumno.Name = "tabAlumno";
             this.tabAlumno.Padding = new System.Windows.Forms.Padding(3);
-            this.tabAlumno.Size = new System.Drawing.Size(601, 275);
+            this.tabAlumno.Size = new System.Drawing.Size(601, 290);
             this.tabAlumno.TabIndex = 1;
             this.tabAlumno.Text = "Alumno";
             this.tabAlumno.UseVisualStyleBackColor = true;
@@ -305,7 +310,7 @@
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(116, 53);
+            this.comboBox3.Location = new System.Drawing.Point(116, 50);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 47;
@@ -321,7 +326,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(24, 56);
+            this.label10.Location = new System.Drawing.Point(24, 53);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(54, 13);
             this.label10.TabIndex = 44;
@@ -338,7 +343,7 @@
             // 
             // buscarApoderado
             // 
-            this.buscarApoderado.Location = new System.Drawing.Point(27, 237);
+            this.buscarApoderado.Location = new System.Drawing.Point(511, 89);
             this.buscarApoderado.Name = "buscarApoderado";
             this.buscarApoderado.Size = new System.Drawing.Size(75, 23);
             this.buscarApoderado.TabIndex = 21;
@@ -354,7 +359,7 @@
             this.tabProfesor.Location = new System.Drawing.Point(4, 22);
             this.tabProfesor.Name = "tabProfesor";
             this.tabProfesor.Padding = new System.Windows.Forms.Padding(3);
-            this.tabProfesor.Size = new System.Drawing.Size(601, 275);
+            this.tabProfesor.Size = new System.Drawing.Size(601, 290);
             this.tabProfesor.TabIndex = 2;
             this.tabProfesor.Text = "Profesor";
             this.tabProfesor.UseVisualStyleBackColor = true;
@@ -388,18 +393,18 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(325, 759);
+            this.btnCancelar.Location = new System.Drawing.Point(22, 740);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(110, 23);
             this.btnCancelar.TabIndex = 25;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(155, 759);
+            this.btnAceptar.Location = new System.Drawing.Point(521, 740);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(110, 23);
             this.btnAceptar.TabIndex = 26;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -486,7 +491,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(24, 90);
+            this.label12.Location = new System.Drawing.Point(24, 99);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(84, 13);
             this.label12.TabIndex = 48;
@@ -516,9 +521,11 @@
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12,
             this.dataGridViewTextBoxColumn13});
-            this.dataGridView1.Location = new System.Drawing.Point(25, 65);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 102);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(544, 146);
             this.dataGridView1.TabIndex = 50;
             // 
@@ -576,54 +583,96 @@
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.ReadOnly = true;
             // 
-            // dgvAlumnos
+            // btnEliminar
             // 
-            this.dgvAlumnos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAlumnos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7});
-            this.dgvAlumnos.Location = new System.Drawing.Point(27, 115);
-            this.dgvAlumnos.Name = "dgvAlumnos";
-            this.dgvAlumnos.Size = new System.Drawing.Size(454, 101);
-            this.dgvAlumnos.TabIndex = 49;
+            this.btnEliminar.Enabled = false;
+            this.btnEliminar.Location = new System.Drawing.Point(258, 740);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(110, 23);
+            this.btnEliminar.TabIndex = 29;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTextBoxColumn1
+            // dgvUsuarios
             // 
-            this.dataGridViewTextBoxColumn1.FillWeight = 60.9137F;
-            this.dataGridViewTextBoxColumn1.HeaderText = "Cod";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvUsuarios.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvUsuarios.BackgroundColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUsuarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DNI,
+            this.Nombre,
+            this.ApPat,
+            this.ApMat,
+            this.Direccion,
+            this.telefono,
+            this.email});
+            this.dgvUsuarios.Location = new System.Drawing.Point(22, 126);
+            this.dgvUsuarios.Name = "dgvUsuarios";
+            this.dgvUsuarios.ReadOnly = true;
+            this.dgvUsuarios.RowHeadersVisible = false;
+            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvUsuarios.Size = new System.Drawing.Size(564, 143);
+            this.dgvUsuarios.TabIndex = 49;
             // 
-            // dataGridViewTextBoxColumn5
+            // DNI
             // 
-            this.dataGridViewTextBoxColumn5.FillWeight = 113.0288F;
-            this.dataGridViewTextBoxColumn5.HeaderText = "Nombre";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.DNI.HeaderText = "DNI";
+            this.DNI.Name = "DNI";
+            this.DNI.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn6
+            // Nombre
             // 
-            this.dataGridViewTextBoxColumn6.FillWeight = 113.0288F;
-            this.dataGridViewTextBoxColumn6.HeaderText = "ApPat";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn7
+            // ApPat
             // 
-            this.dataGridViewTextBoxColumn7.FillWeight = 113.0288F;
-            this.dataGridViewTextBoxColumn7.HeaderText = "ApMat";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.ApPat.HeaderText = "Ap. Paterno";
+            this.ApPat.Name = "ApPat";
+            this.ApPat.ReadOnly = true;
+            // 
+            // ApMat
+            // 
+            this.ApMat.HeaderText = "Ap. Materno";
+            this.ApMat.Name = "ApMat";
+            this.ApMat.ReadOnly = true;
+            // 
+            // Direccion
+            // 
+            this.Direccion.HeaderText = "Dirección";
+            this.Direccion.Name = "Direccion";
+            this.Direccion.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.HeaderText = "telef.";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // email
+            // 
+            this.email.HeaderText = "e-mail";
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
             // 
             // FormInscribirUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(660, 808);
+            this.ClientSize = new System.Drawing.Size(660, 778);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.gbTipoUsuario);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.btnCancelar);
@@ -644,7 +693,7 @@
             this.gbTipoUsuario.ResumeLayout(false);
             this.gbTipoUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -699,11 +748,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridView dgvAlumnos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.DataGridView dgvUsuarios;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ApPat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ApMat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
+        private System.Windows.Forms.DataGridViewTextBoxColumn email;
     }
 }

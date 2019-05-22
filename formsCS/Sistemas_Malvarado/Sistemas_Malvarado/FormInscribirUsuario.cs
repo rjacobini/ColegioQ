@@ -72,6 +72,10 @@ namespace Sistemas_Malvarado
             {
                 this.tabApoderado.Parent = this.tabUsers;
             }
+            else
+            {
+                this.tabApoderado.Parent = null;
+            }
         }
 
         private void ckAlumno_CheckedChanged(object sender, EventArgs e)
@@ -80,6 +84,10 @@ namespace Sistemas_Malvarado
             {
                 this.tabAlumno.Parent = this.tabUsers;
             }
+            else
+            {
+                this.tabAlumno.Parent = null;
+            }
         }
 
         private void ckProfesor_CheckedChanged(object sender, EventArgs e)
@@ -87,6 +95,10 @@ namespace Sistemas_Malvarado
             if(ckProfesor.Checked == true)
             {
                 this.tabProfesor.Parent = this.tabUsers;
+            }
+            else
+            {
+                this.tabProfesor.Parent = null;
             }
         }
 
@@ -102,7 +114,12 @@ namespace Sistemas_Malvarado
 
         private void buscarApoderado_Click(object sender, EventArgs e)
         {
-            
+            FormBuscarApoderado fbuscarAp = new FormBuscarApoderado();
+            if (fbuscarAp.ShowDialog() == DialogResult.OK)
+            {
+                //Editar los parametros de los textBox según el alumno elegido
+
+            }
         }
     }
 }

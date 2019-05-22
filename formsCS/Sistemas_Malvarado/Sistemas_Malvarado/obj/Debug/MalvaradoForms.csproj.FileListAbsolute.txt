@@ -47,3 +47,4 @@ T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sist
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmRegistrarNotas.resources
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarUsuario.resources
 T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarAlumno.resources
+T:\Temp\TA\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarApoderado.resources

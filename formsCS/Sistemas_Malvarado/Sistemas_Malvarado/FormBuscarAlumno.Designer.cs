@@ -31,6 +31,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.gdFiltros = new System.Windows.Forms.GroupBox();
+            this.cbCondicion = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cbGrado = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtApMat = new System.Windows.Forms.TextBox();
             this.txtApPat = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -49,19 +53,15 @@
             this.Sección = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbCondicion = new System.Windows.Forms.ComboBox();
-            this.cbGrado = new System.Windows.Forms.ComboBox();
             this.gdFiltros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(689, 178);
+            this.btnAceptar.Location = new System.Drawing.Point(654, 486);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(110, 23);
             this.btnAceptar.TabIndex = 34;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -88,32 +88,66 @@
             this.gdFiltros.TabStop = false;
             this.gdFiltros.Text = "Filtros";
             // 
+            // cbCondicion
+            // 
+            this.cbCondicion.FormattingEnabled = true;
+            this.cbCondicion.Location = new System.Drawing.Point(112, 186);
+            this.cbCondicion.Name = "cbCondicion";
+            this.cbCondicion.Size = new System.Drawing.Size(184, 21);
+            this.cbCondicion.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 194);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Condición";
+            // 
+            // cbGrado
+            // 
+            this.cbGrado.FormattingEnabled = true;
+            this.cbGrado.Location = new System.Drawing.Point(112, 152);
+            this.cbGrado.Name = "cbGrado";
+            this.cbGrado.Size = new System.Drawing.Size(184, 21);
+            this.cbGrado.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 160);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Grado";
+            // 
             // txtApMat
             // 
             this.txtApMat.Location = new System.Drawing.Point(112, 119);
             this.txtApMat.Name = "txtApMat";
-            this.txtApMat.Size = new System.Drawing.Size(309, 20);
+            this.txtApMat.Size = new System.Drawing.Size(342, 20);
             this.txtApMat.TabIndex = 9;
             // 
             // txtApPat
             // 
             this.txtApPat.Location = new System.Drawing.Point(112, 86);
             this.txtApPat.Name = "txtApPat";
-            this.txtApPat.Size = new System.Drawing.Size(309, 20);
+            this.txtApPat.Size = new System.Drawing.Size(342, 20);
             this.txtApPat.TabIndex = 5;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(112, 53);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(309, 20);
+            this.txtNombre.Size = new System.Drawing.Size(342, 20);
             this.txtNombre.TabIndex = 4;
             // 
             // txtDNI
             // 
             this.txtDNI.Location = new System.Drawing.Point(112, 20);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(309, 20);
+            this.txtDNI.Size = new System.Drawing.Size(342, 20);
             this.txtDNI.TabIndex = 4;
             // 
             // label5
@@ -176,7 +210,7 @@
             this.Sección,
             this.phone,
             this.email});
-            this.dgvUsuarios.Location = new System.Drawing.Point(24, 267);
+            this.dgvUsuarios.Location = new System.Drawing.Point(24, 256);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.ReadOnly = true;
             this.dgvUsuarios.Size = new System.Drawing.Size(740, 216);
@@ -236,45 +270,11 @@
             this.email.Name = "email";
             this.email.ReadOnly = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 160);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Grado";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 194);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 13);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Condición";
-            // 
-            // cbCondicion
-            // 
-            this.cbCondicion.FormattingEnabled = true;
-            this.cbCondicion.Location = new System.Drawing.Point(112, 186);
-            this.cbCondicion.Name = "cbCondicion";
-            this.cbCondicion.Size = new System.Drawing.Size(171, 21);
-            this.cbCondicion.TabIndex = 13;
-            // 
-            // cbGrado
-            // 
-            this.cbGrado.FormattingEnabled = true;
-            this.cbGrado.Location = new System.Drawing.Point(112, 152);
-            this.cbGrado.Name = "cbGrado";
-            this.cbGrado.Size = new System.Drawing.Size(171, 21);
-            this.cbGrado.TabIndex = 11;
-            // 
             // FormBuscarAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(792, 495);
+            this.ClientSize = new System.Drawing.Size(792, 522);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.gdFiltros);
             this.Controls.Add(this.dgvUsuarios);
