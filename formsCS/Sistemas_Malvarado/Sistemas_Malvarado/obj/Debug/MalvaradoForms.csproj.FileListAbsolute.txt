@@ -73,3 +73,34 @@ C:\Users\Renato\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug
 C:\Users\Renato\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormSeccionesACargo.resources
 C:\Users\Renato\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormGestionarCursos.resources
 C:\Users\Renato\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormGestionarCursoPorHorario.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe.config
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.exe
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\Sistemas_Malvarado.pdb
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\MetroFramework.Design.dll
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\MetroFramework.dll
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csprojAssemblyReference.cache
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormGestionarCursoPorHorario.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormSeccionesACargo.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormGestionarCursos.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarAlumno.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarApoderado.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormBuscarUsuario.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.FormInscribirUsuario.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmAsistencia.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmBuscarTaller.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmFeedback.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmGestionarAsistencia.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmGestionarTaller.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmInscripcionTalleres.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmRegistrarNotas.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmTalleresxAlumno.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.frmGestionarRepositorioExamenes.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.MenuPrincipal.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Login.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.Properties.Resources.resources
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.GenerateResource.cache
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CoreCompileInputs.cache
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\MalvaradoForms.csproj.CopyComplete
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.exe
+C:\Users\Renato\Desktop\PUCP\proyecto lp2\ColegioQ\formsCS\Sistemas_Malvarado\Sistemas_Malvarado\obj\Debug\Sistemas_Malvarado.pdb
