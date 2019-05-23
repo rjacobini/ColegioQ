@@ -116,6 +116,11 @@ namespace Sistemas_Malvarado
             Application.Exit();
         }
 
+        private void btnCursos_Click(object sender, EventArgs e)
+        {
+
+        }
+
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         #endregion

@@ -55,6 +55,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormGestionarCursoPorHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionarCursoPorHorario.Designer.cs">
+      <DependentUpon>FormGestionarCursoPorHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeccionesACargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeccionesACargo.Designer.cs">
+      <DependentUpon>FormSeccionesACargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGestionarCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionarCursos.Designer.cs">
+      <DependentUpon>FormGestionarCursos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +141,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormGestionarCursoPorHorario.resx">
+      <DependentUpon>FormGestionarCursoPorHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeccionesACargo.resx">
+      <DependentUpon>FormSeccionesACargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionarCursos.resx">
+      <DependentUpon>FormGestionarCursos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBuscarAlumno.resx">
       <DependentUpon>FormBuscarAlumno.cs</DependentUpon>
     </EmbeddedResource>
